@@ -123,7 +123,8 @@ public class MatrizOrdenada {
             }
         }
         productos = Arrays.copyOf(productos, numProductosValidos);
-
+//añado algo 
+    System.out.println("Hola ");
         // Paso 4: Ordenar los despachos por su código consecutivo
         Arrays.sort(productos, (a, b) -> a[0].compareTo(b[0]));
 
