@@ -83,6 +83,7 @@ public class MatrizOrdenada {
             {"2","290", "Ezetimiba", "290000", "29","2"},
             {"3","344", "Roxes nonatixapil generique", "34000", "3","50"},
             {"3","380", "Ibuprofeno", "3800000", "38","70"},
+            {"33","380", "acetaminofem", "3800000", "70","70"},
         };
         
 
