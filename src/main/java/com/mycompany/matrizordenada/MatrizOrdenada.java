@@ -84,6 +84,7 @@ public class MatrizOrdenada {
             {"3","344", "Roxes nonatixapil generique", "34000", "3","50"},
             {"3","380", "Ibuprofeno", "3800000", "38","70"},
             {"33","380", "acetaminofem", "3800000", "70","70"},
+            {"3","380", "acetaminofem", "50000", "70","90"},
         };
         
 
@@ -103,7 +104,12 @@ public class MatrizOrdenada {
                 productos[i][3] = String.valueOf(Integer.parseInt(productos[i][3]) * 10);
             }
         }
-
+   //Añado algo por segunda vez 
+        System.out.println("HOLAA");
+        
+        // cambios significativos 
+        
+        
         // Paso 3: Agrupar productos repetidos dentro del mismo despacho
         for (int i = 0; i < productos.length; i++) {
             for (int j = i + 1; j < productos.length; j++) {
@@ -125,6 +131,9 @@ public class MatrizOrdenada {
         productos = Arrays.copyOf(productos, numProductosValidos);
 //añado algo 
     System.out.println("Hola ");
+    
+ 
+        
         // Paso 4: Ordenar los despachos por su código consecutivo
         Arrays.sort(productos, (a, b) -> a[0].compareTo(b[0]));
 
